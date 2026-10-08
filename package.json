@@ -1,0 +1,15 @@
+{
+  "name": "qingtian-sketchbook",
+  "private": true,
+  "version": "1.0.0",
+  "description": "周杰伦 - 晴天 [cut_31sec] — hand-drawn motion piece, rendered frame-by-frame in headless Chrome",
+  "type": "module",
+  "scripts": {
+    "analyze": "node scripts/analyze-audio.mjs",
+    "render": "node scripts/render.mjs",
+    "strip": "node scripts/render.mjs --strip"
+  },
+  "dependencies": {
+    "puppeteer-core": "24.10.0"
+  }
+}
